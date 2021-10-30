@@ -15,7 +15,7 @@ app.use('/users', route);
 
 
 const PORT = 8000;
-const URL = 'mongodb+srv://aditya5415:Jaipur320@crud.sbtrw.mongodb.net/PROJECT0?retryWrites=true&w=majority';
+const URL = 'MongoDB URI';
 
 mongoose.connect(URL, { useCreateIndex: true, useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false }).then(() => {
     app.listen(PORT, () => {
